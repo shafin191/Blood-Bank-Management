@@ -1,0 +1,1 @@
+﻿select datediff(day,DonationDate,getdate()) from BloodBank where DonorEmail='shafin93@yahoo.com'

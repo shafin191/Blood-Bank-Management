@@ -1,0 +1,1 @@
+﻿select BloodType,HospitalName,Date,Amount,District from BloodRequest,RequestCheck where (CustomerEmail='shafin93@yahoo.com' and RequestCheck.Status='Confirm' and BloodRequest.BloodReqId=RequestCheck.Id)

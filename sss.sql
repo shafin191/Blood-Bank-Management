@@ -1,0 +1,1 @@
+﻿select BloodReqId,HospitalName,BloodType,Date,District from BloodRequest where CustomerEmail='ab@gmail.com'

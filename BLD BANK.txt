@@ -1,0 +1,56 @@
+CREATE TABLE [dbo].[BloodAmount] (
+    [Id]        INT          NOT NULL,
+    [BloodType] VARCHAR (50) NOT NULL,
+    [Amount]    INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CHECK ([Amount]>=(0))
+);
+
+
+CREATE TABLE [dbo].[BloodBank] (
+    [DonationId]   INT          NOT NULL,
+    [BloodType]    VARCHAR (50) NOT NULL,
+    [DonationDate] DATE         NOT NULL,
+    [DonorEmail]   VARCHAR (50) NOT NULL,
+    [District]     VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([DonationId] ASC),
+    FOREIGN KEY ([DonorEmail]) REFERENCES [dbo].[UserRegistration] ([UserMail]) ON DELETE CASCADE
+);
+
+
+CREATE TABLE [dbo].[BloodRequest] (
+    [BloodReqId]    INT           NOT NULL,
+    [BloodType]     VARCHAR (5)   NOT NULL,
+    [HospitalName]  VARCHAR (100) NOT NULL,
+    [Date]          DATE          NOT NULL,
+    [CustomerEmail] VARCHAR (50)  NOT NULL,
+    [District]      VARCHAR (50)  NOT NULL,
+    [Amount]        INT           NOT NULL,
+    CONSTRAINT [PK_BloodRequest] PRIMARY KEY CLUSTERED ([BloodReqId] ASC),
+    FOREIGN KEY ([CustomerEmail]) REFERENCES [dbo].[UserRegistration] ([UserMail]) ON DELETE CASCADE
+);
+
+
+
+CREATE TABLE [dbo].[RequestCheck] (
+    [Id]     INT          NOT NULL,
+    [Status] VARCHAR (50) DEFAULT ('Pending') NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    FOREIGN KEY ([Id]) REFERENCES [dbo].[BloodRequest] ([BloodReqId]) ON DELETE CASCADE
+);
+
+
+CREATE TABLE [dbo].[UserRegistration] (
+    [UserId]       INT           IDENTITY (1, 1) NOT NULL,
+    [UserName]     VARCHAR (100) NOT NULL,
+    [UserMail]     VARCHAR (50)  NOT NULL,
+    [UserPassword] VARCHAR (MAX) NOT NULL,
+    [UserDistrict] VARCHAR (40)  NOT NULL,
+    [UserAddress]  VARCHAR (MAX) NOT NULL,
+    [UserPhone]    VARCHAR (20)  NOT NULL,
+    [UserDOB]      DATE          NOT NULL,
+    PRIMARY KEY CLUSTERED ([UserMail] ASC)
+);
+
+
+

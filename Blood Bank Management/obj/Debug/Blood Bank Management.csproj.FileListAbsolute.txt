@@ -1,0 +1,20 @@
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\csc.exe
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\vbc.exe
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\VBCSCompiler.exe
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\Blood Bank Management.dll.config
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\Blood Bank Management.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\Blood Bank Management.pdb
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\obj\Debug\Blood Bank Management.dll
+c:\users\ashfaq ali shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\obj\Debug\Blood Bank Management.pdb
+C:\Users\Ashfaq Ali Shafin\documents\visual studio 2015\Projects\Blood Bank Management\Blood Bank Management\obj\Debug\Blood Bank Management.csprojResolveAssemblyReference.cache
